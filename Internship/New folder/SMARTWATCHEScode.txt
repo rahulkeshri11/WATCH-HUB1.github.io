@@ -1,0 +1,140 @@
+<br> <br> <br> <br> 
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h3><b> SMART WATCHES</b></h3>
+      <div class="text-center" style="background-color: green; height: 5px; width: 60px;margin-left: 47%;margin-bottom: 40px;"></div>
+    </div>
+    <div class="col-12 text-center">
+      <button type="button" class="btn btn-outline-success allbtn active" id="all">All</button>
+      <button type="button" class="btn btn-outline-success allbtn" id="men">men</button>
+      <button type="button" class="btn btn-outline-success allbtn" id="women">women</button>
+      <button type="button" class="btn btn-outline-success allbtn" id="child">child</button>
+    </div>
+  </div>
+<br><br>
+  <div class="row">
+
+    <div class="col-sm-2 all-men">
+      <div class="product-design">
+          <img src="img/product/MEN/M1.1.jpg" class="img-fluid img-hide">
+          <img src="img/product/MEN/M1.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6>men A</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 849</b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <a href="detail.html">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button></a>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-2 all-men">
+      <div class="product-design">
+          <img src="img/product/MEN/M2.1.jpg" class="img-fluid img-hide">
+          <img src="img/product/MEN/M2.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6>men B</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 5000</b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-2 all-child">
+      <div class="product-design">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W1.1.jpg" class="img-fluid img-hide">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W1.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6> women A</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 900 </b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-2 all-women">
+      <div class="product-design">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W2.1.jpg" class="img-fluid img-hide">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W2.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6>women B</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 2217</b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+          </div>
+      </div>
+    </div>
+   <div class="col-sm-2 all-men">
+        <div class="product-design">
+            <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C1.1.jpg" class="img-fluid img-hide">
+            <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C1.2.jpg" class="img-fluid img-show" style="display: none;">
+            <div class="text-center">
+              <h6>child A</h6>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star-half-empty text-success"></i>
+              <p><b>&#8377; 1750</b></p>
+            </div>
+            <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+              <a href="detail.html">
+              <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button></a>
+              <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+            </div>
+        </div>
+      </div>
+    
+      
+
+        <div class="col-sm-2 all-child">
+          <div class="product-design">
+              <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C2.1.jpg" class="img-fluid img-hide">
+              <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C2.2.jpg" class="img-fluid img-show" style="display: none;">
+              <div class="text-center">
+                <h6>child B</h6>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star-half-empty text-success"></i>
+                <p><b>&#8377; 1180</b></p>
+              </div>
+              <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+                <a href="detail.html">
+                <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button></a>
+                <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+              </div>
+          </div>
+        </div>
+
+  </div>
+</div>

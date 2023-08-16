@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keralkart</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<!-- owl carousel css link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  
+<!-- owl carousel theme.css link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">  
+
+<!-- jquery cdn - javascript upgrade -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    .header{
+        background-color: #1dbdd9;
+       padding-top: 15px;
+        height: 50px;
+    }
+    .second-header{
+        height: 120px;
+        padding-top: 20px;
+       background-color: rgb(231, 240, 243);
+    border: 5px dashed rgb(65, 89, 139);
+    }
+       .style-icon{
+         border: 1px solid rgb(241, 8, 8);
+         border-radius: 50%;
+         padding: 7px;
+         width: 30px;
+         }
+         .style-icon:hover{
+            background-color: rgb(255, 111, 0);
+            }
+            #image{
+                padding-top: 20px;
+            }
+
+            #icon55{
+            padding-top: 30px;
+        
+        }    
+          .icon11{ 
+            margin: 5px;
+          }
+          li.list-group-item{
+            background-color: transparent;
+            border-bottom: 0;
+          color: #097ff4  ;
+          }
+
+          .product-design{
+            padding: 2px;
+            border: 1px solid #bcbcbc;
+            cursor: pointer;
+          }
+          /* to give shadow effect on hover */
+          .product-design:hover{
+            box-shadow: 0px 0px 10px grey;
+          }
+
+    </style>
+</head>
+<body>
+    <div class="header row">
+        <div class="col-sm-4 text-center">
+            <a href="https://m.facebook.com"><i class="fa fa-facebook-official text-white"></i></a>
+            <a href="https://m.youtube.com/"><i class="fa fa-youtube-play text-white"></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin" target="_blank"><i class="fa fa-twitter text-white"></i></a>
+        </div>
+        <div class="col-sm-4 "><a href="https://www.whatsapp.com/" target="_blank" class="text-white"><i class="fa fa-whatsapp text-white"></i>  Order through whatsapp +91-987654310</a>
+        </div>
+        <div class="col-sm-4"><a href="mailto:ioptyjogen@gmail.com" target="_blank" class="text-white"><i class="fa fa-envelope text-white"></i>  ioptyjogen@gmail.com</a></div>
+
+    </div>
+<div class="row second-header">
+  <div class="col-3 text-center" id="image">
+    <img src= "c:\Users\Vivek\Downloads\Telegram Desktop\watch hub logo 1.png" style="height: 80px; ;">    
+</div> 
+<div class="col-6">
+</div>
+<div class="col-3">
+    <a href="#"><i class="fa fa-whatsapp text-black style-icon"></i></a>
+    <a href="#"><i class="fa fa-user text-black style-icon"></i></a>
+    <a href="#"><i class="fa fa-search text-black style-icon"></i></a>
+
+   <!--<a href="#"><i class="fa fa-shopping-basket text-black style-icon">--> 
+
+    <a data-bs-target="#cartPopup" data-bs-toggle="modal" href="#cartPopup"><i class=" icon11 fa fa-shopping-basket text-black style-icon"></i></a>
+</div>
+</div>
+
+<div class="modal fade" id="cartPopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        ...
+      </div>
+      <div class="modal-footer">
+  
+        <button type="button" class="btn btn-success"> <i class="fa fa-arrow-right" aria-hidden="true"></i> Checkout</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- carousel code start here -->
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/top banners/TopBanner1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/top banners/TopBanner2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/top banners/TopBanner3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- carousel code end here -->
+<br><br> <br> <br>
+
+    <div class="container">
+        <div class="row">
+              <div class="col-4"> 
+                <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\Middle banners\Middle banner1.png" class="img-fluid">
+              </div>
+              <div class="col-4">
+                <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\Middle banners\Middle banner2.png"class="img-fluid">
+              </div>
+              <div class="col-4">
+                <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\Middle banners\Middle banner3.png"class="img-fluid">
+              </div>
+        </div>
+
+    </div>
+<br><br><br>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h3><b> WATCHES</b></h3>
+      <div class="text-center" style="background-color: green; height: 5px; width: 60px;margin-left: 47%;margin-bottom: 40px;"></div>
+    </div>
+    <div class="col-md-12 text-center">
+      <button type="button" class="btn btn-outline-success allbtn active" id="all">All</button>
+      <button type="button" class="btn btn-outline-success allbtn" id="men">Men</button>
+      <button type="button" class="btn btn-outline-success allbtn" id="women">Women</button>
+      <button type="button" class="btn btn-outline-success allbtn" id="child">Child</button>
+    </div>
+  </div>
+<br><br>
+  <div class="row">
+
+    <div class="col-sm-2 all-men">
+      <div class="product-design">
+          <img src="img/product/MEN/M1.1.jpg" class="img-fluid img-hide">
+          <img src="img/product/MEN/M1.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6>men A</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 849</b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <a href="detailM1.html">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button></a>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-2 all-men">
+      <div class="product-design">
+          <img src="img/product/MEN/M2.1.jpg" class="img-fluid img-hide">
+          <img src="img/product/MEN/M2.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6>men B</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 5000</b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <a href="detailM2.html">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+            </a>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-2 all-women">
+      <div class="product-design">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W1.1.jpg" class="img-fluid img-hide">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W1.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6> women A</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 900 </b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <a href="detailW1.html">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+          </a>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-2 all-women">
+      <div class="product-design">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W2.1.jpg" class="img-fluid img-hide">
+          <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\women\W2.2.jpg" class="img-fluid img-show" style="display: none;">
+          <div class="text-center">
+            <h6>women B</h6>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star text-success"></i>
+            <i class="fa fa-star-half-empty text-success"></i>
+            <p><b>&#8377; 2217</b></p>
+          </div>
+          <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+            <a href="detailW2.html">
+            <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button>
+            <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+          </a>
+          </div>
+      </div>
+    </div>
+   <div class="col-sm-2 all-child">
+        <div class="product-design">
+            <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C1.1.jpg" class="img-fluid img-hide">
+            <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C1.2.jpg" class="img-fluid img-show" style="display: none;">
+            <div class="text-center">
+              <h6>child A</h6>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star text-success"></i>
+              <i class="fa fa-star-half-empty text-success"></i>
+              <p><b>&#8377; 1750</b></p>
+            </div>
+            <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+              <a href="detailC1.html">
+              <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button></a>
+              <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+            </div>
+        </div>
+      </div>
+    
+      
+
+        <div class="col-sm-2 all-child">
+          <div class="product-design">
+              <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C2.1.jpg" class="img-fluid img-hide">
+              <img src="c:\Users\Vivek\OneDrive\Desktop\Internship\img\product\child\C2.2.jpg" class="img-fluid img-show" style="display: none;">
+              <div class="text-center">
+                <h6>child B</h6>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star text-success"></i>
+                <i class="fa fa-star-half-empty text-success"></i>
+                <p><b>&#8377; 1180</b></p>
+              </div>
+              <div class="text-center justify-content-around" style="margin-bottom: 10px;">
+                <a href="detailC2.html">
+                <button type="button" class="btn btn-sm btn-outline-success" style="margin-right: 5px;">View Now</button></a>
+                <button type="button" class="btn btn-sm btn-success">Add To Cart</button>
+              </div>
+          </div>
+        </div>
+
+  </div>
+</div>
+
+<!-- product module design @28-07-2023 -->
+
+<div class="owl-carousel owl-theme">
+  <div class="item">
+    <div>
+<p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum corporis aliquid cum assumenda adipisci ex asperiores incidunt doloribus perspiciatis, repudiandae possimus soluta dignissimos, recusandae est quidem mollitia. Doloribus, veritatis modi! </p>
+<p> vivek , Ranchi </p>
+<img src="C:\Users\Vivek\OneDrive\Desktop\Internship\img\my pic.jpg" class="img-fluid" style="border-radius:50% ; width:150px" width="150">
+
+      </div>
+  
+  </div>
+</div>
+
+
+
+
+<br><br><br>
+
+
+<div class="container-fluid">
+    <div class="row justify-content-around" style="background-color: darkgreen; padding-top: 20px; padding-bottom: 20px;">
+        <div class="col-2">
+          <div class="row">
+                <div class="col-3">
+                  <i class="fa fa-gift fa-3x " style="color: #fff;" aria-hidden="true"></i>
+                </div>
+                <div class="col-9">
+                  <p style="color: #fff;">
+                    <b> Special gift card </b><br><small>give a perfect gift</small>
+                  </p>
+                </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="row">
+                <div class="col-3">
+                  <i class="fa fa-money fa-3x " style="color: #fff;" aria-hidden="true"></i>
+                </div>
+                <div class="col-9">
+                  <p style="color: #fff;">
+                    <b> Secure payment </b><br> <small>100% secure payment</small>
+                  </p>
+                </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="row">
+                <div class="col-3">
+                  <i class="fa fa-support fa-3x " style="color: #fff;" aria-hidden="true"></i>
+                </div>
+                <div class="col-9">
+                  <p style="color: #fff;">
+                    <b> Online support</b><br> <small>24/7 support available</small>
+                  </p>
+                </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="row">
+                <div class="col-3">
+                  <i class="fa fa-truck fa-3x " style="color: #fff;" aria-hidden="true"></i>
+                </div>
+                <div class="col-9">
+                  <p style="color: #fff;">
+                    <b> Free shipping </b><br> <small>on order above 500</small>
+                  </p>
+                </div>
+          </div>
+        </div>
+      </div>
+    <div class="row" style="background-color: #0d5522; color: #8C8C8C; padding: 40px;">
+      <div class="col-3">
+        <h4 style="color: #fff; padding-left: 10px;">EXTRAS</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Blog</li>
+          <li class="list-group-item">Brands</li>
+          <li class="list-group-item">Gift Certificates</li>
+          <li class="list-group-item">Affiliate</li>
+          <li class="list-group-item">Special</li>
+          <li class="list-group-item">Site Map</li>
+
+        </ul>
+
+      </div>
+      <div class="col-3">
+        <h4 style="color: #fff; padding-left: 10px;">INFORMATION</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">About Us</li>
+          <li class="list-group-item">Shipping Policies</li>
+          <li class="list-group-item">Privacy Policy for keralkart</li>
+          <li class="list-group-item">Terms & Conditions</li>
+          <li class="list-group-item">Contact Us</li>
+          <li class="list-group-item">Site Map</li>
+
+        </ul>
+
+      </div>
+      <div class="col-3">
+        <h4 style="color: #fff; padding-left: 10px;">MY ACCOUNT</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">My Acount</li>
+          <li class="list-group-item">Order list</li>
+          <li class="list-group-item">Wish List</li>
+          <li class="list-group-item">Newsletter</li>
+          <li class="list-group-item">Returns</li>
+          
+
+        </ul>
+
+      </div>
+      <div class="col-3">
+        <h4 style="color: #fff; padding-left: 10px;">CONTACT US</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> <i class="fa fa-map-marker" aria-hidden="true" style="color: #fff;"></i>
+             &nbsp;RKDF,RANCHI</li>
+          <li class="list-group-item"> <i class="fa fa-envelope" aria-hidden="true" style="color: #fff;"></i>
+            &nbsp;rkdfcollege@gmail.com</li>
+          <li class="list-group-item"> <i class="fa fa-phone" aria-hidden="true" style="color: #fff;"></i>
+           &nbsp; +91 9876543210</li>
+          <li class="list-group-item"> <i class="fa fa-telegram" aria-hidden="true" style="color: #fff;"></i>
+            &nbsp;Ranchi,Jharkhand</li>
+      
+        </ul>
+
+      </div>
+      
+    </div>  
+</div>
+<style>
+  .scroll-div{
+  width: 50px;
+  position: fixed;
+  bottom: 36px;
+  right: 30px;
+
+  }
+</style>
+<div class="scroll-div">
+  <a href="#top" class="button-scroll btn btn-secondary">
+    <i class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i>
+
+ </a>
+</div>
+
+
+<script>
+  $('.img-hide').mouseenter(function(){
+    $(this).hide();
+    $(this).next('.img-show').show();
+  });
+  $('.img-show').mouseleave(function(){
+    $(this).hide();
+    $(this).prev('.img-hide').show();
+  });
+
+  // $('.btn').click(function(){
+  //     alert('class btn');
+  // });
+
+  // use # to call id
+  //when we click on men, hide all other product
+  $('#men').click(function(){
+      //alert('men ffff');
+      $('.all-women').hide();
+      $('.all-child').hide();
+      $('.all-men').show();
+
+      //change button color when we click on it
+      $('.allbtn').removeClass('active');
+      $(this).addClass('active');
+  });
+
+  $('#child').click(function(){
+    $('.all-women').hide();
+    $('.all-men').hide();
+    $('.all-child').show();
+
+    //change button color when we click on it
+    $('.allbtn').removeClass('active');
+      $(this).addClass('active');
+  });
+  $('#women').click(function(){
+      // alert('women');
+      $('.all-women').show();
+      $('.all-child').hide();
+      $('.all-men').hide();
+
+      //change button color when we click on it
+      $('.allbtn').removeClass('active');
+      $(this).addClass('active');
+  });
+  $('#all').click(function(){
+    $('.all-women').show();
+    $('.all-men').show();
+    $('.all-child').show();
+
+    //change button color when we click on it
+    $('.allbtn').removeClass('active');
+      $(this).addClass('active');
+  });
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+})
+</script>
+
+</body>
+</html>
